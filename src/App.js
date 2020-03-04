@@ -1,18 +1,37 @@
 import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
-import lock from './img/lock.jpg'
-import {Helmet} from 'react-helmet'
+
+import {Layout,Drawer,Header,Navigation,Content} from 'react-mdl';
+import Main from './components/main'
+import { Link } from 'react-router-dom';
+
 function App() {
   return (
-    <div className="App">
-      <Helmet>
-        <title>Laziem's Portfolio</title>
-      </Helmet>
-      <h1>My portfolio</h1>
-      <h2>Author: Muhammad Laziem Shafie</h2>
-      <img src={lock} alt="lock" width="500px"></img>
-    </div>
+    <div style={{height: '300px', position: 'relative'}}>
+    <Layout fixedHeader>
+        <Header title={<span><span style={{ color: '#ddd' }}>Area / </span><strong>The Title</strong></span>}>
+            <Navigation>
+                <Link to="/resume">Resume</Link>
+                <Link to="/aboutme">About Me</Link>
+                <Link to="/projects">Projects</Link>
+                <Link to="/contact">Contact</Link>
+            </Navigation>
+        </Header>
+        <Drawer title="Title">
+            <Navigation>
+              <Link to="/resume">Resume</Link>
+              <Link to="/aboutme">About Me</Link>
+              <Link to="/projects">Projects</Link>
+              <Link to="/contact">Contact</Link>
+            </Navigation>
+        </Drawer>
+        <Content>
+          <div className="page-content"/>
+          <Main/>
+        </Content>
+    </Layout>
+</div>
   );
 }
 
