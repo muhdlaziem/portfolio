@@ -1,7 +1,18 @@
 import React, { Component } from 'react';
 export default  class Resume extends Component {
+
+  ListAchievements(arr) {
+    // const arr = arr;
+    const listItems = arr.map((str)=>
+      <li>{str}</li>
+    )
+    return(
+    <ul>{listItems}</ul>
+    )
+  }
   render() {
     let resumeData = this.props.resumeData;
+    
     return (
       <section id="resume">
 
@@ -22,18 +33,18 @@ export default  class Resume extends Component {
                           {item.specialization}
                           <span>&bull;</span> <em className="date">{item.MonthOfPassing} {item.YearOfPassing}</em></p>
                           <p>
-                          {item.Achievements}
+                            {this.ListAchievements(item.Achievements)}
                           </p>
                        </div>
                     </div>
-                  )
+                  );
                 })
               }
             </div>
          </div>
         <div className="row work">
             <div className="three columns header-col">
-               <h1><span>Work</span></h1>
+               <h1><span>Experience</span></h1>
             </div>
 
             <div className="nine columns main-col">
@@ -79,8 +90,7 @@ export default  class Resume extends Component {
                   resumeData.skills && resumeData.skills.map((item) => {
                     return(
                       <li>
-                      <span className={`bar-expand ${item.skillname.toLowerCase()}`}>
-                      </span><em>{item.skillname}</em>
+                      <em>{item.skillname}</em>
                       </li>
                     )
                   })

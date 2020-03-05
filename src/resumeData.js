@@ -1,79 +1,102 @@
 let resumeData = {
-    "imagebaseurl":"https://rbhatia46.github.io/",
-    "name": "Rahul Bhatia",
-    "role": "Frontend Developer and Data Scientist",
-    "linkedinId":"Your LinkedIn Id",
+    "imagebaseurl":"https://muhdlaziem.github.io/",
+    "name": "Muhammad Laziem Shafie",
+    "role": "Mobile App Developer, Data Enginner and Backend Developer",
+    "linkedinId":"muhdlaziem",
     "skypeid": "Your skypeid",
-    "roleDescription": "I like dabbling in various parts of frontend development and like to learn about new technologies, write technical articles or simply play games in my free time.",
+    "roleDescription": "I am very passionate at programming. Love to explore many things about it and ready to learn new technologies. However, the basic of computer science is always important !",
     "socialLinks":[
         {
           "name":"linkedin",
-          "url":"https://www.linkedin.com/in/rahul-bhatia-67ba08121/",
+          "url":"https://www.linkedin.com/in/muhdlaziem/",
           "className":"fa fa-linkedin"
         },
         {
           "name":"github",
-          "url":"http://github.com/rbhatia46",
+          "url":"http://github.com/muhdlaziem",
           "className":"fa fa-github"
         },
         {
           "name":"skype",
-          "url":"http://twitter.com/rbhatia46",
+          "url":"http://twitter.com/muhdlaziem",
           "className":"fa fa-twitter"
         }
       ],
-    "aboutme":"I am currently a pre-final year student at The LNM Institute of Information Technology and pursuing my B.Tech from here. I am a self taught Full Stack Web Developer, currently diving deeper into Machine Learning. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
-    "address":"India",
-    "website":"https://rbhatia46.github.io",
+    "aboutme":"I am a final year student at International Islamic University of Malaysia and pursuing my Bachelor of Computer Scince from here. I am a self-taught programmer, currently focusing into Machine Learning and Deep Learning. I am doing my FYP project entitled 'Automated Diabetic Retinopathy Detection using Deep Neural Network'. I am Looking for internship from July 2020 to December 2020.",
+    "address":"Kuala Lumpur, Malaysia",
+    "website":"https://muhdlaziem.github.io",
+    "email":"muhdlaziem@gmail.com",
     "education":[
       {
-        "UniversityName":"The LNM Insitute of Information Technology",
-        "specialization":"Some specialization",
-        "MonthOfPassing":"Aug",
-        "YearOfPassing":"2020",
-        "Achievements":"Some Achievements"
+        "UniversityName":"SAM Bestari Subang Jaya",
+        "specialization": "SPM",
+        "MonthOfPassing":null,
+        "YearOfPassing":"2014",
+        "Achievements":["Result: 8A3B"]
       },
       {
-        "UniversityName":"Some University",
-        "specialization":"Some specialization",
-        "MonthOfPassing":"Jan",
-        "YearOfPassing":"2018",
-        "Achievements":"Some Achievements"
-      }
+        "UniversityName":"Center For Foundation Studies IIUM",
+        "specialization": "Foundation in Computer Science",
+        "MonthOfPassing":null,
+        "YearOfPassing":"2015 - 2016",
+        "Achievements":["CGPA: 3.399"]
+      },
+      {
+        "UniversityName":"International Islamic University Malaysia",
+        "specialization":"Bachelor of Computer Science. Specialized in Data Science and Computational Intelligence",
+        "MonthOfPassing":"",
+        "YearOfPassing":"2017 - 2021",
+        "Achievements":["Current CGPA: 3.79"]
+      },
+      
+      
     ],
     "work":[
       {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
+        "CompanyName":"Part-Timer IIUM Advanced Technologies Sdn Bhd",
+        "specialization":"Setup PC for UTM & Maintain PC in several Labs in IIUM",
+        "MonthOfLeaving":"",
+        "YearOfLeaving":"2017-2018",
+        "Achievements":""
       },
       {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
+        "CompanyName":"FYP : Automated Diabetic Retinopathy Detection using Deep Neural Network",
+        "specialization":"Research and Development",
+        "MonthOfLeaving":"",
+        "YearOfLeaving":"2019 - 2020",
+        "Achievements":""
       }
     ],
-    "skillsDescription":"Your skills here",
+    "skillsDescription":"These are the languages and frameworks that I excelled",
     "skills":[
       {
-        "skillname":"HTML5"
+        "skillname":"HTML5/CSS/JavaScript"
       },
       {
-        "skillname":"CSS"
+        "skillname":"Nodejs/Reactjs/React-Native"
+      },
+     
+      {
+        "skillname":"R/Python"
       },
       {
-        "skillname":"Reactjs"
+        "skillname":"Tensorflow/Keras"
+      },
+      {
+        "skillname":"MySQL"
+      },
+      {
+        "skillname":"C/C++/Java"
+      },
+      {
+        "skillname":"Solidity"
       }
     ],
     "portfolio":[
       {
-        "name":"project1",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+        "name":"Barcode Scanner",
+        "description":"Mobile Application(React-Native)",
+        "imgurl":"images/portfolio/coffee.jpg"
       },
       {
         "name":"project2",
