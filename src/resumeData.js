@@ -1,10 +1,10 @@
 let resumeData = {
     "imagebaseurl":"https://muhdlaziem.github.io/",
     "name": "Muhammad Laziem Shafie",
-    "role": "Mobile App Developer, Data Enginner and Backend Developer",
+    "role": "Mobile App Developer | Data Enginner | Backend Developer",
     "linkedinId":"muhdlaziem",
     "skypeid": "Your skypeid",
-    "roleDescription": "I am very passionate at programming. Love to explore many things about it and ready to learn new technologies. However, the basic of computer science is always important !",
+    "roleDescription": "Very passionate at programming. Love to explore many things about it and ready to learn new technologies. However, the basic of computer science is always important !",
     "socialLinks":[
         {
           "name":"linkedin",
@@ -22,7 +22,7 @@ let resumeData = {
           "className":"fa fa-twitter"
         }
       ],
-    "aboutme":"I am a final year student at International Islamic University of Malaysia and pursuing my Bachelor of Computer Scince from here. I am a self-taught programmer, currently focusing into Machine Learning and Deep Learning. I am doing my FYP project entitled 'Automated Diabetic Retinopathy Detection using Deep Neural Network'. I am Looking for internship from July 2020 to December 2020.",
+    "aboutme":"4rd year student of Kulliyah Information and Communication Technology, IIUM. Very commited, determined, hard-working and patience in work. Easy to adapt changes. Looking for Machine Learning, Data Science and Software Development fields.",
     "address":"Kuala Lumpur, Malaysia",
     "website":"https://muhdlaziem.github.io",
     "email":"muhdlaziem@gmail.com",

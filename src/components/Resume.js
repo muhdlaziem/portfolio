@@ -1,15 +1,7 @@
 import React, { Component } from 'react';
 export default  class Resume extends Component {
 
-  ListAchievements(arr) {
-    // const arr = arr;
-    const listItems = arr.map((str)=>
-      <li>{str}</li>
-    )
-    return(
-    <ul>{listItems}</ul>
-    )
-  }
+
   render() {
     let resumeData = this.props.resumeData;
     
@@ -32,8 +24,8 @@ export default  class Resume extends Component {
                           <p className="info">
                           {item.specialization}
                           <span>&bull;</span> <em className="date">{item.MonthOfPassing} {item.YearOfPassing}</em></p>
-                          <p>
-                            {this.ListAchievements(item.Achievements)}
+                          <p className="achieve">
+                            {item.Achievements}
                           </p>
                        </div>
                     </div>
@@ -57,7 +49,7 @@ export default  class Resume extends Component {
                           <p className="info">
                           {item.specialization}
                           <span>&bull;</span> <em className="date">{item.MonthOfLeaving} {item.YearOfLeaving}</em></p>
-                          <p>
+                          <p className="achive">
                           {item.Achievements}
                           </p>
                        </div>
