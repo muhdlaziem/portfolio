@@ -168,6 +168,7 @@ ul#nav li {
 /* Links */
 ul#nav li a {
    text-align: center !important;
+   font-size: 20px;
 
 /* 8px padding top + 8px padding bottom + 32px line-height = 48px */
 
@@ -274,7 +275,7 @@ ul#nav li.current a { color: #F06000; }
    padding-bottom: 24px;
    border-bottom: 1px solid #E8E8E8;
 }
-#resume .info {
+#resume .info{
    font: 16px/24px 'librebaskerville-italic', serif;
    color: #6E7881;
    margin-bottom: 18px;
