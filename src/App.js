@@ -1,38 +1,26 @@
-import React from 'react';
-// import logo from './logo.svg';
-import './App.css';
-
-import {Layout,Drawer,Header,Navigation,Content} from 'react-mdl';
-import Main from './components/main'
-import { Link } from 'react-router-dom';
-
-function App() {
-  return (
-    <div style={{height: '300px', position: 'relative'}}>
-    <Layout fixedHeader>
-        <Header title={<span><span style={{ color: '#ddd' }}>Area / </span><strong>The Title</strong></span>}>
-            <Navigation>
-                <Link to="/resume">Resume</Link>
-                <Link to="/aboutme">About Me</Link>
-                <Link to="/projects">Projects</Link>
-                <Link to="/contact">Contact</Link>
-            </Navigation>
-        </Header>
-        <Drawer title="Title">
-            <Navigation>
-              <Link to="/resume">Resume</Link>
-              <Link to="/aboutme">About Me</Link>
-              <Link to="/projects">Projects</Link>
-              <Link to="/contact">Contact</Link>
-            </Navigation>
-        </Drawer>
-        <Content>
-          <div className="page-content"/>
-          <Main/>
-        </Content>
-    </Layout>
-</div>
-  );
+import React, { Component } from 'react';
+import Header from './components/Header';
+import About from './components/About';
+import Resume from './components/Resume';
+import Portfolio from './components/Portfolio';
+import Testimonials from  './components/Testimonials';
+import ContactUs from './components/ContactUs';
+import Footer from './components/Footer';
+import resumeData from './resumeData';
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <Header resumeData={resumeData}/>
+        <About resumeData={resumeData}/>
+        <Resume resumeData={resumeData}/>
+        <Portfolio resumeData={resumeData}/>
+        <Testimonials resumeData={resumeData}/>
+        <ContactUs resumeData={resumeData}/>
+        <Footer resumeData={resumeData}/>
+      </div>
+    );
+  }
 }
 
 export default App;
