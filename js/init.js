@@ -176,8 +176,15 @@
       return false;
    });
 
-
+   var modal = $('#nav-wrap')
+   window.onclick = function(event) {
+      if (event.target == modal) {
+      modal.css({'display': none});
+      }
+   }
 });
+
+
 
 
 
