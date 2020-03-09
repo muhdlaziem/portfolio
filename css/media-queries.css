@@ -210,14 +210,14 @@
    header .social li { margin: 0 10px; }
 
     /* scrolldown link */
-   header .scrolldown { display: none; }
+   /* header .scrolldown { display: none; } */
 
 
    /* About Section
    -------------------------------------------------------------------- */
    #about .profile-pic { 
-      margin-left: auto;
-      margin-right: auto;
+      margin:10px auto;
+      display: block;
    }
    #about h2, p{
       text-align: center;
